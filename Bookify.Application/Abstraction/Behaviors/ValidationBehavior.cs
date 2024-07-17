@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using Bookify.Application.Abstraction.Messaging;
+using Bookify.Application.Exceptions;
 using FluentValidation;
 using MediatR;
 
