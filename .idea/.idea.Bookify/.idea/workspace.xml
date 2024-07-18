@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29fed835-51be-4cb9-81b0-8da7a5869fce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Bookify.Infrastructure/ApplicationDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bookify.Infrastructure/Clock/DateTimeProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bookify.Infrastructure/Configurations/ApartmentConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bookify.Infrastructure/Configurations/UserConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bookify.Infrastructure/DependencyInjection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bookify.Infrastructure/Email/EmailService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bookify.Infrastructure/Repositories/ApartmentRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bookify.Infrastructure/Repositories/BookingRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bookify.Infrastructure/Repositories/Repository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bookify.Infrastructure/Repositories/UserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bookify/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bookify.Infrastructure/Bookify.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Bookify.Infrastructure/Bookify.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bookify/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bookify/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bookify.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Bookify.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,14 +20,15 @@
     <setting file="file://$PROJECT_DIR$/Bookify.Application/DependencyInjection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Private.CoreLib/src/System/InvalidOperationException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Private.CoreLib/src/System/SystemException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b868a837001b430594489c0eefe58f5b2ba910/9e/03dae5dc/DbType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d9de85ef61604c57bb50b8cac968bd371a00/e9/92e46008/INotification.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f4709220066144e1a777247088d0795c27cc20/43/e0752764/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/12f8d680aa1c5ae78dc1fb7cf8212be01e323372dbe3b9b87360e27c58936a/IRequest.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2jHYVgDpIt2Fi0MkMpFdaJ9TiSs" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,7 +41,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Feature/DEV-0008-Add-presentation-layer",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -75,6 +66,8 @@
       <option name="presentableId" value="Default" />
       <updated>1721045519006</updated>
       <workItem from="1721045541072" duration="5579000" />
+      <workItem from="1721216594150" duration="6584000" />
+      <workItem from="1721303056193" duration="395000" />
     </task>
     <servers />
   </component>
