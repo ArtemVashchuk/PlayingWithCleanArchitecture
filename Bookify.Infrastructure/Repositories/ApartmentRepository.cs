@@ -3,6 +3,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Bookify.Infrastructure.Repositories;
 
-internal sealed class ApartmentRepository(DbContext dbContext) : Repository<Apartment>(dbContext), IApartmentRepository
+internal sealed class ApartmentRepository(ApplicationDbContext dbContext) : Repository<Apartment>(dbContext), IApartmentRepository
 {
 }

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Projects\\PlayingWithCleanArchitecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{633609A4-6604-4CB0-B3DA-9F8487A925D9}|Bookify.API\\Bookify.API.csproj|C:\\Projects\\PlayingWithCleanArchitecture\\bookify.api\\controllers\\bookings\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{633609A4-6604-4CB0-B3DA-9F8487A925D9}|Bookify.API\\Bookify.API.csproj|solutionrelative:bookify.api\\controllers\\bookings\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94389F0F-A920-4987-958D-C741455500F4}|Bookify.Domain\\Bookify.Domain.csproj|c:\\projects\\playingwithcleanarchitecture\\bookify.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94389F0F-A920-4987-958D-C741455500F4}|Bookify.Domain\\Bookify.Domain.csproj|solutionrelative:bookify.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{703BB87E-7A44-410B-AA80-5660902D12BA}|Bookify.Application\\Bookify.Application.csproj|c:\\projects\\playingwithcleanarchitecture\\bookify.application\\bookings\\reservebooking\\reservebookingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{703BB87E-7A44-410B-AA80-5660902D12BA}|Bookify.Application\\Bookify.Application.csproj|solutionrelative:bookify.application\\bookings\\reservebooking\\reservebookingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{703BB87E-7A44-410B-AA80-5660902D12BA}|Bookify.Application\\Bookify.Application.csproj|c:\\projects\\playingwithcleanarchitecture\\bookify.application\\users\\registeruser\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{703BB87E-7A44-410B-AA80-5660902D12BA}|Bookify.Application\\Bookify.Application.csproj|solutionrelative:bookify.application\\users\\registeruser\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{633609A4-6604-4CB0-B3DA-9F8487A925D9}|Bookify.API\\Bookify.API.csproj|c:\\projects\\playingwithcleanarchitecture\\bookify.api\\controllers\\apartments\\apartmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{633609A4-6604-4CB0-B3DA-9F8487A925D9}|Bookify.API\\Bookify.API.csproj|solutionrelative:bookify.api\\controllers\\apartments\\apartmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{703BB87E-7A44-410B-AA80-5660902D12BA}|Bookify.Application\\Bookify.Application.csproj|c:\\projects\\playingwithcleanarchitecture\\bookify.application\\abstraction\\authentication\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{703BB87E-7A44-410B-AA80-5660902D12BA}|Bookify.Application\\Bookify.Application.csproj|solutionrelative:bookify.application\\abstraction\\authentication\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{703BB87E-7A44-410B-AA80-5660902D12BA}|Bookify.Application\\Bookify.Application.csproj|c:\\projects\\playingwithcleanarchitecture\\bookify.application\\users\\registeruser\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{703BB87E-7A44-410B-AA80-5660902D12BA}|Bookify.Application\\Bookify.Application.csproj|solutionrelative:bookify.application\\users\\registeruser\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,46 +29,55 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Projects\\PlayingWithCleanArchitecture\\Bookify.Application\\Abstraction\\Authentication\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Bookify.Application\\Abstraction\\Authentication\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Projects\\PlayingWithCleanArchitecture\\Bookify.Application\\Abstraction\\Authentication\\IAuthenticationService.cs",
+              "RelativeToolTip": "Bookify.Application\\Abstraction\\Authentication\\IAuthenticationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T06:56:37.844Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReserveBookingCommand.cs",
-              "DocumentMoniker": "C:\\Projects\\PlayingWithCleanArchitecture\\Bookify.Application\\Bookings\\ReserveBooking\\ReserveBookingCommand.cs",
-              "RelativeDocumentMoniker": "Bookify.Application\\Bookings\\ReserveBooking\\ReserveBookingCommand.cs",
-              "ToolTip": "C:\\Projects\\PlayingWithCleanArchitecture\\Bookify.Application\\Bookings\\ReserveBooking\\ReserveBookingCommand.cs",
-              "RelativeToolTip": "Bookify.Application\\Bookings\\ReserveBooking\\ReserveBookingCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "DocumentIndex": 3,
+              "Title": "RegisterUserCommand.cs",
+              "DocumentMoniker": "C:\\Projects\\PlayingWithCleanArchitecture\\Bookify.Application\\Users\\RegisterUser\\RegisterUserCommand.cs",
+              "RelativeDocumentMoniker": "Bookify.Application\\Users\\RegisterUser\\RegisterUserCommand.cs",
+              "ToolTip": "C:\\Projects\\PlayingWithCleanArchitecture\\Bookify.Application\\Users\\RegisterUser\\RegisterUserCommand.cs",
+              "RelativeToolTip": "Bookify.Application\\Users\\RegisterUser\\RegisterUserCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T13:19:39.794Z",
+              "WhenOpened": "2024-08-01T08:12:38.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BookingsController.cs",
-              "DocumentMoniker": "C:\\Projects\\PlayingWithCleanArchitecture\\Bookify.API\\Controllers\\Bookings\\BookingsController.cs",
-              "RelativeDocumentMoniker": "Bookify.API\\Controllers\\Bookings\\BookingsController.cs",
-              "ToolTip": "C:\\Projects\\PlayingWithCleanArchitecture\\Bookify.API\\Controllers\\Bookings\\BookingsController.cs",
-              "RelativeToolTip": "Bookify.API\\Controllers\\Bookings\\BookingsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAABAAAA",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Projects\\PlayingWithCleanArchitecture\\Bookify.Domain\\Users\\User.cs",
+              "RelativeDocumentMoniker": "Bookify.Domain\\Users\\User.cs",
+              "ToolTip": "C:\\Projects\\PlayingWithCleanArchitecture\\Bookify.Domain\\Users\\User.cs",
+              "RelativeToolTip": "Bookify.Domain\\Users\\User.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wBYAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T12:51:39.5Z",
+              "WhenOpened": "2024-08-01T08:08:24.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApartmentsController.cs",
-              "DocumentMoniker": "C:\\Projects\\PlayingWithCleanArchitecture\\Bookify.API\\Controllers\\Apartments\\ApartmentsController.cs",
-              "RelativeDocumentMoniker": "Bookify.API\\Controllers\\Apartments\\ApartmentsController.cs",
-              "ToolTip": "C:\\Projects\\PlayingWithCleanArchitecture\\Bookify.API\\Controllers\\Apartments\\ApartmentsController.cs",
-              "RelativeToolTip": "Bookify.API\\Controllers\\Apartments\\ApartmentsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "DocumentIndex": 1,
+              "Title": "RegisterUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Projects\\PlayingWithCleanArchitecture\\Bookify.Application\\Users\\RegisterUser\\RegisterUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Bookify.Application\\Users\\RegisterUser\\RegisterUserCommandHandler.cs",
+              "ToolTip": "C:\\Projects\\PlayingWithCleanArchitecture\\Bookify.Application\\Users\\RegisterUser\\RegisterUserCommandHandler.cs",
+              "RelativeToolTip": "Bookify.Application\\Users\\RegisterUser\\RegisterUserCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T12:17:46.265Z",
+              "WhenOpened": "2024-08-01T07:58:27.244Z",
               "EditorCaption": ""
             }
           ]

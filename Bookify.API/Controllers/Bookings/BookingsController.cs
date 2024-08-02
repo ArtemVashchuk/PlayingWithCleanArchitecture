@@ -6,11 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Bookify.API.Controllers.Bookings;
 
-[Route("api/[controller]")]
+[Route("api/bookings")]
 [ApiController]
 public class BookingsController(ISender sender) : ControllerBase
 {
-    [HttpGet]
+    [HttpGet("id")]
     public async Task<IActionResult> GetBooking(
         Guid id,
         CancellationToken cancellationToken)
