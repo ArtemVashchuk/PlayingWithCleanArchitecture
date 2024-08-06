@@ -1,4 +1,3 @@
-using System.ComponentModel.DataAnnotations;
 using Bookify.Application.Abstraction.Messaging;
 using Bookify.Application.Exceptions;
 using FluentValidation;
@@ -10,7 +9,9 @@ public class ValidationBehavior<TRequest, TResponse>(IEnumerable<IValidator<TReq
     : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IBaseCommand
 {
-    public async Task<TResponse> Handle(TRequest request, RequestHandlerDelegate<TResponse> next,
+    public async Task<TResponse> Handle(
+        TRequest request,
+        RequestHandlerDelegate<TResponse> next,
         CancellationToken cancellationToken)
     {
         if (!validators.Any())

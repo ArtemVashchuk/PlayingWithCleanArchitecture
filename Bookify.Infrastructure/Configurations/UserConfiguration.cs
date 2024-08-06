@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Bookify.Infrastructure.Configurations;
 
-public class UserConfiguration : IEntityTypeConfiguration<User>
+internal sealed class UserConfiguration : IEntityTypeConfiguration<User>
 {
     public void Configure(EntityTypeBuilder<User> builder)
     {
@@ -25,5 +25,7 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
             .HasConversion(email => email.Value, value => new Domain.Users.Email(value));
 
         builder.HasIndex(user => user.Email).IsUnique();
+
+        builder.HasIndex(user => user.IdentityId).IsUnique();
     }
 }
