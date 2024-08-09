@@ -1,5 +1,4 @@
-﻿using Bookify.Application.Apartments.SearchApartments;
-using Bookify.Application.Bookings.GetBooking;
+﻿using Bookify.Application.Bookings.GetBooking;
 using Bookify.Application.Bookings.ReserveBooking;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;

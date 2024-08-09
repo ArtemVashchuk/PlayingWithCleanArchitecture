@@ -1,4 +1,3 @@
-using System.Data.Common;
 using Bookify.Application.Exceptions;
 using Bookify.Domain.Abstractions;
 using MediatR;
