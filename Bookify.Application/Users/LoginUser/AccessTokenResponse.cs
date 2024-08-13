@@ -1,3 +1,3 @@
-﻿namespace Bookify.Application.Users.LoginUser;
+﻿namespace Bookify.Application.Users.LogInUser;
 
-public record AccessTokenResponse(string AccessToken);
+public sealed record AccessTokenResponse(string AccessToken);

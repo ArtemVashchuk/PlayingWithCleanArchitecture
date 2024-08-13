@@ -1,7 +1,7 @@
 ﻿using Bookify.Application.Exceptions;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Bookify.Api.Middleware;
+namespace Bookify.API.Middleware;
 
 public class ExceptionHandlingMiddleware(
     RequestDelegate next,

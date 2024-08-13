@@ -1,5 +1,5 @@
 ﻿using Bogus;
-using Bookify.Application.Abstraction.Data;
+using Bookify.Application.Abstractions.Data;
 using Bookify.Domain.Apartments;
 using Dapper;
 

@@ -1,7 +1,6 @@
-﻿using Bookify.Application.Abstraction.Messaging;
+﻿using Bookify.Application.Abstractions.Messaging;
 
-namespace Bookify.Application.Users.LoginUser
-{
-    public sealed record LogInUserCommand(string Email, string Password)
-        : ICommand<AccessTokenResponse>;
-}
+namespace Bookify.Application.Users.LogInUser;
+
+public sealed record LogInUserCommand(string Email, string Password)
+    : ICommand<AccessTokenResponse>;

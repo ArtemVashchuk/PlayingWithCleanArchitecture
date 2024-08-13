@@ -1,6 +1,6 @@
 ﻿using Bookify.Domain.Abstractions;
 
-namespace Bookify.Application.Abstraction.Authentication
+namespace Bookify.Application.Abstractions.Authentication
 {
     public interface IJwtService
     {

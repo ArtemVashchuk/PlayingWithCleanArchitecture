@@ -1,7 +1,7 @@
-using Bookify.Application.Abstraction.Messaging;
+using Bookify.Application.Abstractions.Messaging;
 
 namespace Bookify.Application.Apartments.SearchApartments;
 
-public record SearchApartmentsQuery(
+public sealed record SearchApartmentsQuery(
     DateOnly StartDate,
     DateOnly EndDate) : IQuery<IReadOnlyList<ApartmentResponse>>;
