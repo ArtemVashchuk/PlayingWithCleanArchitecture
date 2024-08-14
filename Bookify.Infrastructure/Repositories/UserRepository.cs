@@ -8,9 +8,7 @@ internal sealed class UserRepository(ApplicationDbContext dbContext)
     public override void Add(User user)
     {
         foreach (var userRole in user.Roles)
-        {
             DbContext.Attach(userRole);
-        }
 
         DbContext.Add(user);
     }

@@ -1,7 +1,6 @@
-﻿namespace Bookify.API.Controllers
+﻿namespace Bookify.API.Controllers;
+
+public static class Roles
 {
-    public static class Roles
-    {
-        public const string Registered = nameof(Registered);
-    }
+    public const string Registered = nameof(Registered);
 }

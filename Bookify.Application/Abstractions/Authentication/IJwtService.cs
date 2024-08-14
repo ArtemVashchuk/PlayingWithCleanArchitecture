@@ -1,12 +1,11 @@
 ﻿using Bookify.Domain.Abstractions;
 
-namespace Bookify.Application.Abstractions.Authentication
+namespace Bookify.Application.Abstractions.Authentication;
+
+public interface IJwtService
 {
-    public interface IJwtService
-    {
-        public Task<Result<string>> GetAccessTokenAsync(
-            string email,
-            string password,
-            CancellationToken cancellationToken = default);
-    }
+    public Task<Result<string>> GetAccessTokenAsync(
+        string email,
+        string password,
+        CancellationToken cancellationToken = default);
 }
