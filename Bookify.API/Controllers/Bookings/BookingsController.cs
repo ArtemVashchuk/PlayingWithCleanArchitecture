@@ -1,15 +1,18 @@
 ﻿using Bookify.Application.Bookings.GetBooking;
 using Bookify.Application.Bookings.ReserveBooking;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Bookify.API.Controllers.Bookings;
 
-[Route("api/bookings")]
+[Authorize]
 [ApiController]
+[Route("api/bookings")]
+
 public class BookingsController(ISender sender) : ControllerBase
 {
-    [HttpGet("id")]
+    [HttpGet("{id:guid}")]
     public async Task<IActionResult> GetBooking(
         Guid id,
         CancellationToken cancellationToken)

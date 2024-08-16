@@ -13,9 +13,7 @@ internal sealed class PermissionAuthorizationPolicyProvider(IOptions<Authorizati
         var policy = await base.GetPolicyAsync(policyName);
 
         if (policy is not null)
-        {
             return policy;
-        }
 
         var permissionPolicy = new AuthorizationPolicyBuilder()
             .AddRequirements(new PermissionRequirement(policyName))

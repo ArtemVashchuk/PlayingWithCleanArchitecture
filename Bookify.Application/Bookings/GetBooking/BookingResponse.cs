@@ -8,23 +8,23 @@ public sealed class BookingResponse
     
     public Guid ApartmentId { get; init; }
     
-    public int Status { get; set; }
+    public int Status { get; init; }
     
-    public decimal PriceAmount { get; set; }
+    public decimal PriceAmount { get; init; }
     
-    public string PriceCurrency { get; set; }
+    public string PriceCurrency { get; init; }
     
     public decimal CleaningFeeAmount { get; init; }
     
-    public string CleaningFeeCurrency { get; set; }
+    public string CleaningFeeCurrency { get; init; }
     
     public decimal AmenitiesUpChargeAmount { get; init; }
     
-    public string AmenitiesUpChargeACurrency { get; set; }
+    public string AmenitiesUpChargeACurrency { get; init; }
     
     public decimal TotalPriceAmount { get; init; }
     
-    public decimal TotalPriceCurrency { get; init; }
+    public string TotalPriceCurrency { get; init; }
     
     public DateOnly DurationStart { get; init; }
     

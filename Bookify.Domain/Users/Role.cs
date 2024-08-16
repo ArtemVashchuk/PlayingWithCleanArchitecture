@@ -10,9 +10,9 @@ public sealed class Role
         Name = name;
     }
 
-    public int Id { get;}
+    public int Id { get; init; }
 
-    public string Name { get;} = string.Empty;
+    public string Name { get; init; } = string.Empty;
 
     public ICollection<User> Users { get; init; } = new List<User>();
 
