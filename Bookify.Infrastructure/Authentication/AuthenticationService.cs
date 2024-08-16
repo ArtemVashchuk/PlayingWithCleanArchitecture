@@ -1,11 +1,11 @@
-﻿using System.Net.Http.Json;
-using Bookify.Application.Abstraction.Authentication;
+﻿using Bookify.Application.Abstractions.Authentication;
 using Bookify.Domain.Users;
 using Bookify.Infrastructure.Authentication.Models;
+using System.Net.Http.Json;
 
 namespace Bookify.Infrastructure.Authentication;
 
-public sealed class AuthenticationService(HttpClient httpClient) : IAuthenticationService
+internal sealed class AuthenticationService(HttpClient httpClient) : IAuthenticationService
 {
     private const string PasswordCredentialType = "password";
 
@@ -16,31 +16,32 @@ public sealed class AuthenticationService(HttpClient httpClient) : IAuthenticati
     {
         var userRepresentationModel = UserRepresentationModel.FromUser(user);
 
-        userRepresentationModel.Credentials =
-        [
+        userRepresentationModel.Credentials = new CredentialRepresentationModel[]
+        {
             new()
             {
                 Value = password,
                 Temporary = false,
                 Type = PasswordCredentialType
             }
-        ];
+        };
 
         var response = await httpClient.PostAsJsonAsync(
             "users",
             userRepresentationModel,
             cancellationToken);
 
-        return ExtractIdentityFromLocationHeader(response);
+        return ExtractIdentityIdFromLocationHeader(response);
     }
 
-    private static string ExtractIdentityFromLocationHeader(HttpResponseMessage httpResponseMessage)
+    private static string ExtractIdentityIdFromLocationHeader(
+        HttpResponseMessage httpResponseMessage)
     {
-        const string usersSegmentName = "/users";
+        const string usersSegmentName = "users/";
 
         var locationHeader = httpResponseMessage.Headers.Location?.PathAndQuery;
 
-        if (locationHeader == null)
+        if (locationHeader is null)
         {
             throw new InvalidOperationException("Location header can't be null");
         }

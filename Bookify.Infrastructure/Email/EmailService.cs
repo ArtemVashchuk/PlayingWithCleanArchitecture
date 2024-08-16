@@ -1,4 +1,4 @@
-using Bookify.Application.Abstraction.Email;
+using Bookify.Application.Abstractions.Email;
 
 namespace Bookify.Infrastructure.Email;
 

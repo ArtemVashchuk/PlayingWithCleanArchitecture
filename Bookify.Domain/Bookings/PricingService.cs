@@ -28,7 +28,7 @@ public class PricingService
         if (percentageUpCharge > 0)
             amenitiesUpCharge = new(priceForPeriod.Amount * percentageUpCharge, currency);
 
-        var totalPrice = Money.Zero();
+        var totalPrice = Money.Zero(currency);
 
         totalPrice += priceForPeriod;
 

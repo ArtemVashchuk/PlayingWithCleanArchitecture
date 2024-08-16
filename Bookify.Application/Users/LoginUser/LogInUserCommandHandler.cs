@@ -1,28 +1,27 @@
-﻿using Bookify.Application.Abstraction.Authentication;
-using Bookify.Application.Abstraction.Messaging;
+﻿using Bookify.Application.Abstractions.Authentication;
+using Bookify.Application.Abstractions.Messaging;
 using Bookify.Domain.Abstractions;
 using Bookify.Domain.Users;
 
-namespace Bookify.Application.Users.LoginUser
+namespace Bookify.Application.Users.LogInUser;
+
+internal sealed class LogInUserCommandHandler(IJwtService jwtService)
+    : ICommandHandler<LogInUserCommand, AccessTokenResponse>
 {
-    internal sealed class LogInUserCommandHandler(IJwtService jwtService)
-        : ICommandHandler<LogInUserCommand, AccessTokenResponse>
+    public async Task<Result<AccessTokenResponse>> Handle(
+        LogInUserCommand request,
+        CancellationToken cancellationToken)
     {
-        public async Task<Result<AccessTokenResponse>> Handle(
-            LogInUserCommand request,
-            CancellationToken cancellationToken)
+        var result = await jwtService.GetAccessTokenAsync(
+            request.Email,
+            request.Password,
+            cancellationToken);
+
+        if (result.IsFailure)
         {
-            var result = await jwtService.GetAccessTokenAsync(
-                request.Email,
-                request.Password,
-                cancellationToken);
-
-            if (result.IsFailure)
-            {
-                return Result.Failure<AccessTokenResponse>(UserErrors.InvalidCredentials);
-            }
-
-            return new AccessTokenResponse(result.Value);
+            return Result.Failure<AccessTokenResponse>(UserErrors.InvalidCredentials);
         }
+
+        return new AccessTokenResponse(result.Value);
     }
 }

@@ -1,11 +1,15 @@
-﻿using Bookify.Application.Abstraction.Authentication;
-using Bookify.Application.Abstraction.Messaging;
+﻿using Bookify.Application.Abstractions.Authentication;
+using Bookify.Application.Abstractions.Messaging;
 using Bookify.Domain.Abstractions;
 using Bookify.Domain.Users;
 
 namespace Bookify.Application.Users.RegisterUser;
 
-public sealed class RegisterUserCommandHandler(IAuthenticationService authenticationService, IUserRepository userRepository, IUnitOfWork unitOfWork) : ICommandHandler<RegisterUserCommand, Guid>
+internal sealed class RegisterUserCommandHandler(
+    IAuthenticationService authenticationService,
+    IUserRepository userRepository,
+    IUnitOfWork unitOfWork)
+    : ICommandHandler<RegisterUserCommand, Guid>
 {
     public async Task<Result<Guid>> Handle(
         RegisterUserCommand request,

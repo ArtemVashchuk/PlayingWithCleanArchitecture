@@ -1,4 +1,4 @@
-using Bookify.Application.Abstraction.Email;
+using Bookify.Application.Abstractions.Email;
 using Bookify.Domain.Bookings;
 using Bookify.Domain.Bookings.Events;
 using Bookify.Domain.Users;

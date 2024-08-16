@@ -1,8 +1,8 @@
-using Bookify.Application.Abstraction.Messaging;
+using Bookify.Application.Abstractions.Messaging;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace Bookify.Application.Abstraction.Behaviors;
+namespace Bookify.Application.Abstractions.Behaviors;
 
 public class LoggingBehavior<TRequest, TResponse>(ILogger<TRequest> logger) : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IBaseCommand

@@ -1,4 +1,4 @@
-using Bookify.Application.Abstraction.Clock;
+using Bookify.Application.Abstractions.Clock;
 
 namespace Bookify.Infrastructure.Clock;
 
